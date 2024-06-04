@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+#convert {
+    border-radius: 8px;
+    width: 568px;
+    height: 478px;
+    margin: 200px auto;
+    background: #1C1C1C;
+    font-family: "Inter", sans-serif;
+    padding: 24px;
+}
+.convert_title {
+    font-weight: 800;
+    font-size: 24px;
+    color: #e6df3c;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.convert_data {
+    display: flex;
+    gap: 21px;
+    align-items: end;
+}
+.convert_label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #bdbdbd;
+}
+#data {
+    margin-top: 5px;
+    background: #1C1C1C;
+    border: 2px solid #BDBDBD;
+    border-radius: 8px;
+    width: 301px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #d9d9d9;
+    padding: 8px;
+}
+#data:focus {
+    outline: none;
+    border: 2px solid #e6df3c;
+}
+.convert_btn {
+    display: block;
+    border-radius: 8px;
+    border: none;
+    width: 198px;
+    height: 50px;
+    background: #e6df3c;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+}
+.convert_btn:hover {
+    background: #C3BD32;
+}
+.result_title {
+    font-weight: 700;
+    font-size: 16px;
+    color: #bdbdbd;
+    text-align: left;
+    margin-top: 65px;
+}
+.result_number{
+    border: 2px solid #e6df3c;
+    border-radius: 8px;
+    width: 519px;
+    height: 50px;
+    margin: 5px auto;
+    font-size: 16px;
+    color: #d9d9d9;
+    padding: 18px 8px;
+}
